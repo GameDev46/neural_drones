@@ -1,6 +1,6 @@
-import { NeuralNetwork } from "/neuralNetwork.js";
-import { platformer } from "/platformer.js";
-import { networkLoader } from "/presets.js";
+import { NeuralNetwork } from "./neuralNetwork.js";
+import { platformer } from "./platformer.js";
+import { networkLoader } from "./presets.js";
 
 const canvas = document.getElementById("canvas");
 
