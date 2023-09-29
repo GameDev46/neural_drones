@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+canvas {
+	outline: 2px solid rgb(13, 13, 13);
+}
+
+
+.controls {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.controls>button {
+	width: 30px;
+	height: 30px;
+	background: rgba(255, 150, 150, 0.8);
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	letter-spacing: 0.8px;
+	color: rgb(255, 255, 255);
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: 0.1s linear;
+	z-index: 200;
+}
+
+.controls>button:hover {
+	background: rgba(255, 150, 150, 1);
+}
+
+.controls>div {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: -12px;
+	left: -10px;
+	background: rgba(255, 255, 255, 0.1);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 2px;
+}
+
+.controls>div>button {
+	width: 180px;
+	height: 35px;
+	background: rgba(255, 255, 255, 0.8);
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	color: rgb(13, 13, 13);
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: 0.1s linear;
+}
+
+.controls>div>button:hover {
+	background: rgba(255, 255, 255, 1);
+}
+
+.controls>div>h1 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 0.8px;
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+
+.controls>div>p {
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 0.8px;
+	color: rgb(255, 255, 255);
+	margin-top: 10px;
+}
+
+.controls>div>input {
+	width: 50px;
+	height: 20px;
+	padding-left: 5px;
+	background: rgba(255, 255, 255, 0.8);
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	color: rgb(13, 13, 13);
+	margin-right: 10px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+}
+
+.controls>div>select {
+	width: 180px;
+	height: 35px;
+	background: rgba(255, 255, 255, 0.8);
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	color: rgb(13, 13, 13);
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: 0.1s linear;
+}
+
+
+.lineUp {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.lineUp>p {
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	color: rgb(255, 255, 255);
+	margin-right: 10px;
+	transform: translateY(-10px);
+}
+
+.lineUp>input[type=number] {
+	width: 50px;
+	height: 20px;
+	padding-left: 5px;
+	background: rgba(255, 255, 255, 0.8);
+	font-family: Montserrat, sans-serif;
+	font-weight: 100;
+	font-size: 12px;
+	letter-spacing: 0.8px;
+	color: rgb(13, 13, 13);
+	margin-right: 10px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+}
+
+
+.container {
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.container>input[type=checkbox] {
+	appearance: none;
+	opacity: 0;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	pointer-events: all;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	border-radius: 2px;
+	background-color: #eee;
+	pointer-events: none;
+}
+
+.container:hover>input~.checkmark {
+	background-color: #ccc;
+}
+
+.container>input:checked~.checkmark {
+	background-color: #2196F3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container>input:checked~.checkmark:after {
+	display: block;
+}
+
+.container>.checkmark:after {
+	left: 6px;
+	top: 2px;
+	width: 4px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	pointer-events: none;
+}
