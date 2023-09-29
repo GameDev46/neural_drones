@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+
+	<meta name="description"
+		content="Play around and watch as 300 neural networks learn unique and interesting methods of avoiding walls and getting to the red target. Why not even share your creations with your friends using the save and load buttons">
+	<meta name="keywords" content="artificial, intellegence, neural, network, drones, AI, algorithm">
+	<meta name="author" property="og:author" content="GameDev46">
+
+	<meta name="theme-color" content="#262641">
+
+	<meta property="og:image" content="/logo.png">
+	<meta property="og:site_name" content="Neural Drones">
+	<meta itemprop="name" content="Neural Drones">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@GameDev46">
+	<meta name="twitter:title" content="Neural Drones">
+	<meta name="twitter:description"
+		content="Play around and watch as 300 neural networks learn unique and interesting methods of avoiding walls and getting to the red target. Why not even share your creations with your friends using the save and load buttons">
+	<meta name="twitter:image" content="/logo.png">
+
+	<title>Neural Drones</title>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="icon" href="/logo.png" type="image/png" />
+</head>
+
+<body>
+
+	<div class="controls">
+		<button id="toggleMenu">☰</button>
+
+		<div id="menu">
+			<h1 id="generationCounter">Generation 1</h1>
+			<button id="toggleBest">Toggle Best</button>
+			<p>Start Position</p>
+			<div class="lineUp">
+				<p>X:</p>
+				<input type="number" value="0" id="startX">
+				<p>Y:</p>
+				<input type="number" value="0" id="startY">
+			</div>
+			<p>Target Position</p>
+			<div class="lineUp">
+				<p>X:</p>
+				<input type="number" value="0" id="targetX">
+				<p>Y:</p>
+				<input type="number" value="0" id="targetY">
+			</div>
+			<div class="lineUp">
+				<p>Use Target:</p>
+				<div class="container">
+					<input type="checkbox" id="targetEnabled" checked>
+					<span class="checkmark"></span>
+				</div>
+			</div>
+			<div class="lineUp">
+				<p>Use Particles:</p>
+				<div class="container">
+					<input type="checkbox" id="particlesEnabled" checked>
+					<span class="checkmark"></span>
+				</div>
+			</div>
+			<p>Per Frame Iterations</p>
+			<input type="number" value="1" id="frameIterations">
+			<br>
+			<select id="presets">
+				<option value="" selected>Presets</option>
+			</select>
+			<br>
+			<button id="save">Save</button>
+			<br>
+			<button id="load">Load</button>
+			<br>
+			<button id="reset">Reset</button>
+
+		</div>
+
+	</div>
+
+	<canvas id="canvas"></canvas>
+
+	<script src="script.js" type="module"></script>
+
+</body>
+
+</html>
