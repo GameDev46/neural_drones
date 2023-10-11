@@ -1,3 +1,27 @@
+/*
+
+ _____                         ______                 ___   ____ 
+|  __ \                        |  _  \               /   | / ___|
+| |  \/  __ _  _ __ ___    ___ | | | |  ___ __   __ / /| |/ /___ 
+| | __  / _` || '_ ` _ \  / _ \| | | | / _ \\ \ / // /_| || ___ \
+| |_\ \| (_| || | | | | ||  __/| |/ / |  __/ \ V / \___  || \_/ |
+ \____/ \__,_||_| |_| |_| \___||___/   \___|  \_/      |_/\_____/
+
+
+*/
+
+/* 
+	AUTHOR: GameDev46
+
+	replit: https://replit.com/@GameDev46
+	youtube: https://www.youtube.com/@gamedev46
+	twitter: https://twitter.com/GameDev46
+
+		Copyright of GameDev46
+
+		Give clear and visible credit if using! (much appreciated 😄)
+*/
+
 class NeuralNetwork {
 	layers = [];
 	weights = [];
