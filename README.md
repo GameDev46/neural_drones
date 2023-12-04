@@ -8,7 +8,7 @@
 ![Static Badge](https://img.shields.io/badge/-CSS-1f1f22?style=for-the-badge&logo=CSS3&logoColor=6060ef)
 ![Static Badge](https://img.shields.io/badge/-JavaScript-1f1f22?style=for-the-badge&logo=JavaScript)
     
-<a href="https://github.com/GameDev46/neural_drones/stars">
+<a href="https://github.com/GameDev46/neural_drones/stargazers">
     <img src="https://img.shields.io/github/stars/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22" alt="stars - neural_drones">
 </a>
 
