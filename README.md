@@ -1,6 +1,6 @@
 <a href="https://github.com/GameDev46" title="Go to profile">
     <img src="https://img.shields.io/static/v1?label=GameDev46&message=Profile&color=Green&logo=github&style=for-the-badge&labelColor=1f1f22" alt="GameDev46 - image_classifier">
-    <img src="https://img.shields.io/badge/Version-1.3.5green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - image_classifier">
+    <img src="https://img.shields.io/badge/Version-1.3.5-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - image_classifier">
 </a>
 
 
