@@ -8,13 +8,17 @@
 ![Static Badge](https://img.shields.io/badge/-CSS-1f1f22?style=for-the-badge&logo=CSS3&logoColor=6060ef)
 ![Static Badge](https://img.shields.io/badge/-JavaScript-1f1f22?style=for-the-badge&logo=JavaScript)
     
-<a href="https://github.com/GameDev46/neural_drones">
+<a href="https://github.com/GameDev46/neural_drones/stars">
     <img src="https://img.shields.io/github/stars/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22" alt="stars - neural_drones">
 </a>
 
-<a href="https://github.com/GameDev46/neural_drones">
+<a href="https://github.com/GameDev46/neural_drones/forks">
     <img src="https://img.shields.io/github/forks/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22" alt="forks - image_drones">
 </a>
+
+<a href="https://github.com/GameDev46/neural_drones/issues">
+    <img src="https://img.shields.io/github/issues/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22&color=blue"/>
+ </a>
 
 <br>
 <br>
