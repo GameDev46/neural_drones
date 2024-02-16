@@ -1,12 +1,12 @@
 <a href="https://github.com/GameDev46" title="Go to profile">
-    <img src="https://img.shields.io/static/v1?label=GameDev46&message=Profile&color=Green&logo=github&style=for-the-badge&labelColor=1f1f22" alt="GameDev46 - image_classifier">
-    <img src="https://img.shields.io/badge/Version-1.3.5-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - image_classifier">
+    <img src="https://img.shields.io/static/v1?label=GameDev46&message=|&color=Green&logo=github&style=for-the-badge&labelColor=1f1f22" alt="GameDev46 - image_classifier">
+    <img src="https://img.shields.io/badge/Version-0.1.5-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - image_classifier">
 </a>
 
 
-![Static Badge](https://img.shields.io/badge/-HTML5-1f1f22?style=for-the-badge&logo=HTML5)
-![Static Badge](https://img.shields.io/badge/-CSS-1f1f22?style=for-the-badge&logo=CSS3&logoColor=6060ef)
-![Static Badge](https://img.shields.io/badge/-JavaScript-1f1f22?style=for-the-badge&logo=JavaScript)
+![Static Badge](https://img.shields.io/badge/--1f1f22?style=for-the-badge&logo=HTML5)
+![Static Badge](https://img.shields.io/badge/--1f1f22?style=for-the-badge&logo=CSS3&logoColor=6060ef)
+![Static Badge](https://img.shields.io/badge/--1f1f22?style=for-the-badge&logo=JavaScript)
     
 <a href="https://github.com/GameDev46/neural_drones/stargazers">
     <img src="https://img.shields.io/github/stars/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22" alt="stars - neural_drones">
@@ -19,17 +19,6 @@
 <a href="https://github.com/GameDev46/neural_drones/issues">
     <img src="https://img.shields.io/github/issues/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22&color=blue"/>
  </a>
-
-<br>
-<br>
-
-<a href="https://github.com/GameDev46/neural_drones/releases/">
-    <img src="https://img.shields.io/github/tag/GameDev46/neural_drones?include_prereleases=&sort=semver&color=Green&style=for-the-badge&labelColor=1f1f22" alt="GitHub tag">
-</a>
-
-<a href="https://github.com/GameDev46/neural_drones/issues">
-    <img src="https://img.shields.io/github/issues/GameDev46/neural_drones?style=for-the-badge&labelColor=1f1f22" alt="issues - neural_drones">
-</a>
 
 <br>
 <br>
@@ -68,7 +57,3 @@ Neural drones makes use of a very simple neural network library that I built, wh
 You can save and load the networks using the save and load button located on the settings panel, by default the networks are saved to the localstorage of your browser, but this not only has a cap on the amount of data that can be stored but also is reset if your search history is cleared so I would reccomend using thr save button instead. When you press the save button a JSON object s copied to your clipboard which you can then paste into notepad or another text editing software before then saving that to your device.
 
 To load a saved neural network simply copy the contents of the save file you created to your clipboard before then hittin load, the program will then read the copied JSON object from your clipboard and load the neural netowrks with the saved settings and will even restore the generation count that they were saved on.
-
-## Website
-
-You can try out neural drones [here on its website](https://gamedev46.github.io/neural_drones/), or you can fork the repository and download and run it on your own device!
