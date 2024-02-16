@@ -17,9 +17,9 @@
 	youtube: https://www.youtube.com/@gamedev46
 	twitter: https://twitter.com/GameDev46
 
-		Copyright of GameDev46
+	Give clear and visible credit if using! (much appreciated 😄)
 
-		Give clear and visible credit if using! (much appreciated 😄)
+ 	PLEASE DO NOT REMOVE THESE CREDITS!
 */
 
 class NeuralNetwork {
