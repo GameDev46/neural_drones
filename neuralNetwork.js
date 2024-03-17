@@ -131,9 +131,10 @@ class NeuralNetwork {
 
 				let data = this.layers[x - 1];
 
+				this.layers[x][y] = 0;
+
 				for (let i = 0; i < data.length; i++) {
 					this.layers[x][y] += this.round(data[i] * this.weights[x - 1][y][i]);
-
 				}
 
 				// Activation function
